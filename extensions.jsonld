@@ -11,8 +11,14 @@
     "oa": "https://openactive.io/",
     "label": "rdfs:label",
     "comment": "rdfs:comment",
-    "domainIncludes": "schema:domainInclude",
-    "rangeIncludes": "schema:rangeIncludes",
+    "domainIncludes": {
+      "@id": "schema:domainIncludes",
+      "@type": "@id"
+    },
+    "rangeIncludes": {
+      "@id": "schema:rangeIncludes",
+      "@type": "@id"
+    },
     "Property": "rdf:Property"
   }
 }
