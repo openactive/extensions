@@ -23,6 +23,7 @@
       "@id": "schema:rangeIncludes",
       "@type": "@id"
     },
-    "Property": "rdf:Property"
+    "Property": "rdf:Property",
+    "Class": "rdfs:Class"
   }
 }
