@@ -11,6 +11,10 @@
     "oa": "https://openactive.io/",
     "label": "rdfs:label",
     "comment": "rdfs:comment",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
     "domainIncludes": {
       "@id": "schema:domainIncludes",
       "@type": "@id"
