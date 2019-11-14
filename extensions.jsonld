@@ -1,29 +1,33 @@
 {
-  "@context": {
-    "type": "@type",
-    "id": "@id",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "schema": "https://schema.org/",
-    "pending": "https://pending.schema.org/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "oa": "https://openactive.io/",
-    "label": "rdfs:label",
-    "comment": "rdfs:comment",
-    "subClassOf": {
-      "@id": "rdfs:subClassOf",
-      "@type": "@id"
-    },
-    "domainIncludes": {
-      "@id": "schema:domainIncludes",
-      "@type": "@id"
-    },
-    "rangeIncludes": {
-      "@id": "schema:rangeIncludes",
-      "@type": "@id"
-    },
-    "Property": "rdf:Property",
-    "Class": "rdfs:Class"
-  }
-}
+   "@context":{
+      "type":"@type",
+      "id":"@id",
+      "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+      "xsd":"http://www.w3.org/2001/XMLSchema#",
+      "schema":"https://schema.org/",
+      "pending":"https://pending.schema.org/",
+      "skos":"http://www.w3.org/2004/02/skos/core#",
+      "oa":"https://openactive.io/",
+      "label":"rdfs:label",
+      "comment":"rdfs:comment",
+      "subClassOf":{
+         "@id":"rdfs:subClassOf",
+         "@type":"@id"
+      },
+      "domainIncludes":{
+         "@id":"schema:domainIncludes",
+         "@type":"@id"
+      },
+      "rangeIncludes":{
+         "@id":"schema:rangeIncludes",
+         "@type":"@id"
+      },
+      "githubIssue":{
+         "@id":"https://developer.github.com/v3/issues/",
+         "@type":"https://schema.org/URL"
+      },
+      "Property":"rdf:Property",
+      "Class":"rdfs:Class"
+   }
+}s
