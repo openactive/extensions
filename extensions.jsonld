@@ -23,11 +23,11 @@
          "@id":"schema:rangeIncludes",
          "@type":"@id"
       },
-      "githubIssue":{
-         "@id":"https://developer.github.com/v3/issues/",
-         "@type":"https://schema.org/URL"
+      "discussionUrl":{
+         "@id": "schema:discussionUrl",
+         "@type": "schema:URL"
       },
       "Property":"rdf:Property",
       "Class":"rdfs:Class"
    }
-}s
+}
