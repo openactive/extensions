@@ -24,6 +24,7 @@
       "@type": "@id"
     },
     "Property": "rdf:Property",
-    "Class": "rdfs:Class"
+    "Class": "rdfs:Class",
+    "discussionUrl": "schema:discussionUrl"
   }
 }
