@@ -25,6 +25,7 @@
     },
     "Property": "rdf:Property",
     "Class": "rdfs:Class",
-    "discussionUrl": "schema:discussionUrl"
+    "discussionUrl": "schema:discussionUrl",
+    "documentation": "schema:documentation"
   }
 }
