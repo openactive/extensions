@@ -26,6 +26,7 @@
     "Property": "rdf:Property",
     "Class": "rdfs:Class",
     "discussionUrl": "schema:discussionUrl",
-    "documentation": "schema:documentation"
+    "documentation": "schema:documentation",
+    "supersededBy": "schema:supersededBy"
   }
 }
